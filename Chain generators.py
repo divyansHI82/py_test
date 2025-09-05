@@ -1,0 +1,5 @@
+def g1(): yield from range(1,4)
+def g2(): yield from range(4,7)
+for n in g1(): print(n)
+for n in g2(): print(n)
+print("This program is written by Divyanshi Singhal ERP I.D is 0221BCH150")
